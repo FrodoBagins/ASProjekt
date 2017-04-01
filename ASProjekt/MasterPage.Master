@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="ASProjekt.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="Style.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="site">
+            <div id="titlebar">
+                <div id="header">
+                    Muzyka Filmowa
+                </div>
+                <div id="menu">
+                    <asp:Menu ID="Menu1" runat="server" CssClass="menu" Orientation="Horizontal" DataSourceID="SiteMapDataSource1" OnMenuItemClick="Menu1_MenuItemClick" StaticDisplayLevels="2">
+                    </asp:Menu>
+                </div>
+            </div>
+            <div id="content">
+
+                <div id="page_content">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <div id="footer">
+                Footer
+            </div>
+        </div>
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+    </form>
+</body>
+</html>

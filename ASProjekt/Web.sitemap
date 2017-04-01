@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="MainSite.aspx" title="Strona Główna"  description="">
+    
+    <siteMapNode url="menu_1.aspx" title="MENU 1"  description="">
+      <siteMapNode url="menu_1_1.aspx" title="MENU 1 1"  description=""/>
+      <siteMapNode url="menu_1_2.aspx" title="MENU 1 2"  description=""/>
+    </siteMapNode>
+    
+    <siteMapNode url="menu_2.aspx" title="MENU 2"  description="">
+      <siteMapNode url="menu_2_1.aspx" title="MENU 2 1"  description=""/>
+      <siteMapNode url="menu_2_2.aspx" title="MENU 2 2"  description=""/>
+      <siteMapNode url="menu_2_3.aspx" title="MENU 2 3"  description=""/>
+    </siteMapNode>
+
+    <siteMapNode url="menu_3.aspx" title="MENU 3"  description="">
+      <siteMapNode url="menu_3_1.aspx" title="MENU 3 1"  description=""/>
+      <siteMapNode url="menu_3_2.aspx" title="MENU 3 2"  description=""/>
+      <siteMapNode url="menu_3_3.aspx" title="MENU 3 3"  description=""/>
+    </siteMapNode>
+    
+  </siteMapNode>
+</siteMap>
