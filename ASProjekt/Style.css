@@ -1,9 +1,11 @@
 ﻿body {
+
 }
 
 #site{
     margin: auto;
     width: 80%;
+    background-color: goldenrod;
 
 }
 
@@ -79,4 +81,38 @@
     font-size: 1.5em;
     background-color: black;
     color: white;
+}
+
+#gridview{
+
+    float: left;
+
+}
+
+#detailsview{
+    margin-left: 20px;
+    float: left;
+}
+
+#details{
+
+    color: black;
+    margin-bottom:10px;
+    
+
+}
+
+.DvdDetails{
+
+    border-style: none;
+  
+  
+}
+
+
+.AlbumGrid{
+
+   width: 400px;
+
+
 }

@@ -29,7 +29,7 @@
                 </div>
             </div>
             <div id="footer">
-                Footer
+               © 2017 Created by Kamil Bagiński. Wszystkie prawa zastrzeżone.
             </div>
         </div>
         <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />

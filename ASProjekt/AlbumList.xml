@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<AlbumList>
+	<Album ID="1" Category="Comedy">
+		<Title>asdasd</Title>
+		<Compositor>asdasdasd</Compositor>
+		<Year>1943</Year>
+		<Distributor>adasdsd</Distributor>
+		<Tracks>
+			<Track>asdasdsd</Track>
+			<Track>asdasdsd</Track>
+			<Track>asdasdsd</Track>
+			<Track>asdasdsd</Track>
+			<Track>asdasdsd</Track>
+			<Track>asdasdsd</Track>
+			<Track>asdasdsd</Track>
+			<Track>asdasdsd</Track>		
+		</Tracks>
+	</Album>
+		<Album ID="2" Category="Horror">
+		<Title>asdasd</Title>
+		<Compositor>asdasdasd</Compositor>
+		<Year>1943</Year>
+		<Distributor>adasdsd</Distributor>
+		<Tracks>
+			<Track>asdasdsd</Track>
+			<Track>asdasdsd</Track>
+			<Track>asdasdsd</Track>
+			<Track>asdasdsd</Track>
+			<Track>asdasdsd</Track>
+			<Track>asdasdsd</Track>
+			<Track>asdasdsd</Track>
+			<Track>asdasdsd</Track>		
+		</Tracks>
+	</Album>
+		<Album ID="3" Category="Action">
+		<Title>asdasd</Title>
+		<Compositor>asdasdasd</Compositor>
+		<Year>1943</Year>
+		<Distributor>adasdsd</Distributor>
+		<Tracks>
+			<Track>asdasdsd</Track>
+			<Track>asdasdsd</Track>
+			<Track>asdasdsd</Track>
+			<Track>asdasdsd</Track>
+			<Track>asdasdsd</Track>
+			<Track>asdasdsd</Track>
+			<Track>asdasdsd</Track>
+			<Track>asdasdsd</Track>		
+		</Tracks>
+	</Album>
+		<Album ID="4" Category="Science Fiction">
+		<Title>asdasd</Title>
+		<Compositor>asdasdasd</Compositor>
+		<Year>1943</Year>
+		<Distributor>adasdsd</Distributor>
+		<Tracks>
+			<Track>asdasdsd</Track>
+			<Track>asdasdsd</Track>
+			<Track>asdasdsd</Track>
+			<Track>asdasdsd</Track>
+			<Track>asdasdsd</Track>
+			<Track>asdasdsd</Track>
+			<Track>asdasdsd</Track>
+			<Track>asdasdsd</Track>		
+		</Tracks>
+	</Album>
+</AlbumList>

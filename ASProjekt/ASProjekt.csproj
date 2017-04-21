@@ -94,6 +94,20 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AlbumList.xml" />
+    <Content Include="Albumy.aspx" />
+    <Content Include="Contest.aspx" />
+    <Content Include="Contest1.aspx" />
+    <Content Include="Contest2.aspx" />
+    <Content Include="Info.aspx" />
+    <Content Include="InfoComp.aspx" />
+    <Content Include="InfoDirect.aspx" />
+    <Content Include="InfoMovies.aspx" />
+    <Content Include="Mashup.aspx" />
+    <Content Include="NewMovies.aspx" />
+    <Content Include="News.aspx" />
+    <Content Include="NewSongs.aspx" />
+    <Content Include="Ost.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -113,6 +127,62 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Albumy.aspx.cs">
+      <DependentUpon>Albumy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Albumy.aspx.designer.cs">
+      <DependentUpon>Albumy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contest.aspx.cs">
+      <DependentUpon>Contest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contest.aspx.designer.cs">
+      <DependentUpon>Contest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contest1.aspx.cs">
+      <DependentUpon>Contest1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contest1.aspx.designer.cs">
+      <DependentUpon>Contest1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contest2.aspx.cs">
+      <DependentUpon>Contest2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contest2.aspx.designer.cs">
+      <DependentUpon>Contest2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Info.aspx.cs">
+      <DependentUpon>Info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Info.aspx.designer.cs">
+      <DependentUpon>Info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InfoComp.aspx.cs">
+      <DependentUpon>InfoComp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InfoComp.aspx.designer.cs">
+      <DependentUpon>InfoComp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InfoDirect.aspx.cs">
+      <DependentUpon>InfoDirect.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InfoDirect.aspx.designer.cs">
+      <DependentUpon>InfoDirect.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InfoMovies.aspx.cs">
+      <DependentUpon>InfoMovies.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InfoMovies.aspx.designer.cs">
+      <DependentUpon>InfoMovies.aspx</DependentUpon>
+    </Compile>
     <Compile Include="MainSite.aspx.cs">
       <DependentUpon>MainSite.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -120,12 +190,47 @@
     <Compile Include="MainSite.aspx.designer.cs">
       <DependentUpon>MainSite.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Mashup.aspx.cs">
+      <DependentUpon>Mashup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mashup.aspx.designer.cs">
+      <DependentUpon>Mashup.aspx</DependentUpon>
+    </Compile>
     <Compile Include="MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="MasterPage.Master.designer.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="NewMovies.aspx.cs">
+      <DependentUpon>NewMovies.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewMovies.aspx.designer.cs">
+      <DependentUpon>NewMovies.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="News.aspx.cs">
+      <DependentUpon>News.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="News.aspx.designer.cs">
+      <DependentUpon>News.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewSongs.aspx.cs">
+      <DependentUpon>NewSongs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewSongs.aspx.designer.cs">
+      <DependentUpon>NewSongs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ost.aspx.cs">
+      <DependentUpon>Ost.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ost.aspx.designer.cs">
+      <DependentUpon>Ost.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
