@@ -6,4 +6,8 @@
     strona glowna <br />
     strona glowna <br />
 
+
+
+    <iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3A1188584951%3Aplaylist%3A12YdPVlQoHM2Dm90QAnfkk" width="300" height="380"></iframe>
+
 </asp:Content>

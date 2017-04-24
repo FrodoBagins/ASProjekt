@@ -96,13 +96,17 @@
   <ItemGroup>
     <Content Include="AlbumList.xml" />
     <Content Include="Albumy.aspx" />
+    <Content Include="Century.png" />
     <Content Include="Contest.aspx" />
     <Content Include="Contest1.aspx" />
     <Content Include="Contest2.aspx" />
+    <Content Include="Hateful8.jpeg" />
     <Content Include="Info.aspx" />
     <Content Include="InfoComp.aspx" />
     <Content Include="InfoDirect.aspx" />
     <Content Include="InfoMovies.aspx" />
+    <Content Include="LaLaLand.jpeg" />
+    <Content Include="Marzyciel.jpg" />
     <Content Include="Mashup.aspx" />
     <Content Include="NewMovies.aspx" />
     <Content Include="News.aspx" />
@@ -113,12 +117,19 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="MasterPage.Master" />
+    <Content Include="Williams.jpg" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="Podsumowanie1.aspx" />
+    <Content Include="Pytanie1.aspx" />
+    <Content Include="Pytanie2.aspx" />
+    <Content Include="Pytanie3.aspx" />
+    <Content Include="Pytanie4.aspx" />
+    <Content Include="Pytanie5.aspx" />
     <Content Include="Web.sitemap" />
   </ItemGroup>
   <ItemGroup>
@@ -232,7 +243,49 @@
     <Compile Include="Ost.aspx.designer.cs">
       <DependentUpon>Ost.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Podsumowanie1.aspx.cs">
+      <DependentUpon>Podsumowanie1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Podsumowanie1.aspx.designer.cs">
+      <DependentUpon>Podsumowanie1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Pytanie1.aspx.cs">
+      <DependentUpon>Pytanie1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pytanie1.aspx.designer.cs">
+      <DependentUpon>Pytanie1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pytanie2.aspx.cs">
+      <DependentUpon>Pytanie2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pytanie2.aspx.designer.cs">
+      <DependentUpon>Pytanie2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pytanie3.aspx.cs">
+      <DependentUpon>Pytanie3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pytanie3.aspx.designer.cs">
+      <DependentUpon>Pytanie3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pytanie4.aspx.cs">
+      <DependentUpon>Pytanie4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pytanie4.aspx.designer.cs">
+      <DependentUpon>Pytanie4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pytanie5.aspx.cs">
+      <DependentUpon>Pytanie5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pytanie5.aspx.designer.cs">
+      <DependentUpon>Pytanie5.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

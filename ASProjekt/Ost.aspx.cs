@@ -29,24 +29,25 @@ namespace ASProjekt
 
         protected void GridView1_RowCommand(object sender, GridViewCommandEventArgs e)
         {
-        //    GridView gridView = (GridView)sender;
+            GridView gridView = (GridView)sender;
 
             // Get the selected index and the command name
-        //    int selectedIndex = int.Parse(e.CommandArgument.ToString());
-      //      string commandName = e.CommandName;
+            int selectedIndex = int.Parse(e.CommandArgument.ToString());
+            string commandName = e.CommandName;
+
+            int index = selectedIndex + 1;
+
+            //   DataSet ds = new DataSet();
+
+            //   ds.ReadXml(Server.MapPath("~/AlbumList.xml"));
+
+            //   DvdDetailsView.DataSource = ds;
+            //  DvdDetailsView.PageIndex = selectedIndex;
+            //   DvdDetailsView.DataBind();
+            DvdDetailsView.Visible = true;
+               XmlDataSource2.XPath = "/AlbumList/Album[@ID=" + index + "]";
 
 
-      //      if (commandName == "SingleClick")
-       //     {
-
-      //          DataSet ds = new DataSet();
-
-     //           ds.ReadXml(Server.MapPath("~/AlbumList.xml"));
-
-    //            DvdDetailsView.DataSource = ds;
-    //            DvdDetailsView.PageIndex = selectedIndex;
-            //    DvdDetailsView.DataBind();
-       //     }
         }
 
         protected void OnPageIndexChanging(object sender, GridViewPageEventArgs e)

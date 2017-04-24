@@ -1,26 +1,57 @@
 ﻿body {
-
 }
 
-#site{
+#site {
     margin: auto;
     width: 80%;
     background-color: goldenrod;
-
 }
 
-#titlebar{
+#titlebar {
     background: black;
+}
+
+.pytanie{
+  display: block;
+          margin-left: auto;
+    margin-right: auto;
 
 }
 
-#header{
+
+#ankieta{
+
+    padding: 5px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+
+.pytanieLabel {
+        margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+.pytanieImage {
+    height: 300px;
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#header {
     text-align: center;
     color: white;
     font-size: 2em;
     height: 70px;
     padding-top: 20px;
-    
 }
 
 
@@ -36,41 +67,39 @@
     display: compact;
     background-color: black;
     margin-top: 3px;
-
 }
 
 .menu a {
     color: white;
     background-color: black;
-    margin-left:10px;
-    margin-right:10px;
-
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-.menu a.selected {
-    font-weight : bold;
-    background-color: red;
-    margin-left:10px;
-    margin-right:10px;
+    .menu a.selected {
+        font-weight: bold;
+        background-color: red;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .menu a:hover {
+        font-weight: bold;
+    }
+
+
+
+#content {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
-.menu a:hover {
-    font-weight: bold;
-}
-
-
-
-#content{
-    margin-top: 5px;
-}
-
-#content::after{
-
-    content:'';
-    display: block;
-    clear: both;
-
-}
+    #content::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
 
 #page_content {
     margin: 10px;
@@ -83,36 +112,37 @@
     color: white;
 }
 
-#gridview{
-
+#gridview {
     float: left;
-
 }
 
-#detailsview{
+#detailsview {
     margin-left: 20px;
     float: left;
 }
 
-#details{
-
+#details {
     color: black;
-    margin-bottom:10px;
-    
-
+    margin-bottom: 10px;
 }
 
-.DvdDetails{
-
+.DvdDetails {
     border-style: none;
-  
-  
+    background-color: white;
 }
 
 
-.AlbumGrid{
 
-   width: 400px;
 
+.AlbumGrid {
+    width: 400px;
+}
+
+
+
+.podsumowanieButton{
+
+     Width: 200px;
+     Height: 30px;
 
 }

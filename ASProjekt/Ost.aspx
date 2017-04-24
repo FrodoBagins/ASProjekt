@@ -7,7 +7,7 @@
 
         <div id="gridview">
             <asp:XmlDataSource ID="albumSource" runat="server" DataFile="AlbumList.xml" />
-            <asp:GridView ID="AlbumGridView" runat="server" AutoGenerateColumns="False" CssClass="AlbumGrid" DataSourceID="albumSource" >
+            <asp:GridView ID="AlbumGridView" runat="server" AutoGenerateColumns="False" OnRowCommand="GridView1_RowCommand" CssClass="AlbumGrid" DataSourceID="albumSource">
                 <Columns>
                     <asp:TemplateField HeaderText="Album">
                         <ItemTemplate>
@@ -25,15 +25,20 @@
 
                 <asp:Label ID="label" runat="server"></asp:Label>
 
-                <asp:XmlDataSource ID="XmlDataSource2" runat="server" DataFile="AlbumList.xml" XPath="/AlbumList/Album[@ID='"AlbumGridView.SelectedDataKey.Value.ToString()"']"/>
-                <asp:DetailsView ID="DvdDetailsView" CellPadding="5" runat="server" GridLines="None" AutoGenerateRows="false" CssClass="DvdDetails" DataSourceID="XmlDataSource2">
+                <asp:XmlDataSource ID="XmlDataSource2" runat="server" DataFile="AlbumList.xml" />
+                <asp:DetailsView ID="DvdDetailsView" CellPadding="5" runat="server" GridLines="None" Visible="false" AutoGenerateRows="false" CssClass="DvdDetails" DataSourceID="XmlDataSource2">
                     <Fields>
                         <asp:BoundField DataField="ID" HeaderText="ID" SortExpression="ID" />
                         <asp:TemplateField HeaderText="ID:">
                             <ItemTemplate>
                                 <%# XPath("@ID") %>
                             </ItemTemplate>
+                        </asp:TemplateField>
 
+                        <asp:TemplateField HeaderText="Title:">
+                            <ItemTemplate>
+                                <%# XPath("Title") %>
+                            </ItemTemplate>
                         </asp:TemplateField>
 
                         <asp:TemplateField HeaderText="Tracks:">
