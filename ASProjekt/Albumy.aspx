@@ -3,7 +3,18 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    Albumy
+    W tym miejscu będą pojawiać się informacje o popularnych <br />
+    ścieżkach dźwiękowych
+        <br />
+        <br />
+        Przejdź do albumów
+        <br />
+        <asp:HyperLink 
+            id="hyperlink2" 
+                  NavigateUrl="Ost.aspx"
+                  Text="Płyty"
+                  runat="server" />
+        <br />
 
 
 </asp:Content>

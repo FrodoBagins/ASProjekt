@@ -105,15 +105,54 @@
     margin: 10px;
 }
 
+.tabelaAlbum{
+    text-align: center;
+}
+
+.newsLabel{
+
+
+    font-weight: bold;
+    color: crimson;
+    font-style: italic;
+    font-size: 20px;
+     margin-left: auto;
+     display: block;
+     margin-right: auto; 
+
+}
+
+
+.newsButton{
+         margin-left: auto;
+     display: block;
+     margin-right: auto; 
+
+}
+
+.video{
+     width: 560px; 
+     height: 315px;
+     margin-left: auto;
+     display: block;
+     margin-right: auto; 
+
+}
+
+
 #footer {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1em;
+    padding: 10px;
     background-color: black;
     color: white;
 }
 
 #gridview {
     float: left;
+    margin-top: 20px;
+    margin-right:20px;
+    width: 20px;
 }
 
 #detailsview {
@@ -123,7 +162,7 @@
 
 #details {
     color: black;
-    margin-bottom: 10px;
+    margin: 20px;
 }
 
 .DvdDetails {
@@ -132,17 +171,30 @@
 }
 
 
-
-
 .AlbumGrid {
     width: 400px;
+    background: white;
 }
 
 
+.details{
+    margin-left: 10px;
+}
 
 .podsumowanieButton{
 
      Width: 200px;
      Height: 30px;
+}
 
+
+#MainText{
+    float: left;
+}
+
+
+#Spotify{
+
+    margin-left: 50px;
+     float: left;
 }

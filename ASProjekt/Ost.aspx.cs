@@ -10,6 +10,10 @@ namespace ASProjekt
 {
     public partial class Ost : System.Web.UI.Page
     {
+        AlbumDB db = new AlbumDB();
+        TrackDB db2 = new TrackDB();
+
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!this.IsPostBack)
@@ -44,16 +48,57 @@ namespace ASProjekt
             //   DvdDetailsView.DataSource = ds;
             //  DvdDetailsView.PageIndex = selectedIndex;
             //   DvdDetailsView.DataBind();
-            DvdDetailsView.Visible = true;
-               XmlDataSource2.XPath = "/AlbumList/Album[@ID=" + index + "]";
+
 
 
         }
 
         protected void OnPageIndexChanging(object sender, GridViewPageEventArgs e)
         {
-            AlbumGridView.PageIndex = e.NewPageIndex;
+
             this.BindGrid();
+        }
+
+        protected void ObjectDataSource1_Selected(object sender, ObjectDataSourceStatusEventArgs e)
+        {
+
+       //     GridView1.DataBind();
+        //    DetailsView1.SelectedValue = 
+
+
+
+
+        }
+
+        protected void ObjectDataSource4_Updated(object sender, ObjectDataSourceStatusEventArgs e)
+        {
+            GridView1.DataBind();
+        }
+
+        protected void ObjectDataSource1_Updated(object sender, ObjectDataSourceStatusEventArgs e)
+        {
+            DetailsView1.DataBind();
+        }
+
+        protected void ObjectDataSource4_Inserted(object sender, ObjectDataSourceStatusEventArgs e)
+        {
+            GridView1.DataBind();
+            AlbumDropDownList.DataBind();
+        }
+
+        protected void ObjectDataSource5_Inserted(object sender, ObjectDataSourceStatusEventArgs e)
+        {
+            GridView2.DataBind();
+        }
+
+        protected void ObjectDataSource5_Updated(object sender, ObjectDataSourceStatusEventArgs e)
+        {
+            GridView2.DataBind();
+        }
+
+        protected void ObjectDataSource2_Updated(object sender, ObjectDataSourceStatusEventArgs e)
+        {
+            DetailsView2.DataBind();
         }
     }
 }

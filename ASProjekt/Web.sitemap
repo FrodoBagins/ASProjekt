@@ -7,20 +7,12 @@
       <siteMapNode url="NewMovies.aspx" title="Nowe Filmy"  description=""/>
     </siteMapNode>
     
-    <siteMapNode url="Info.aspx" title="Informacje"  description="">
-      <siteMapNode url="InfoMovies.aspx" title="Film"  description=""/>
-      <siteMapNode url="InfoDirect.aspx" title="Reżyser"  description=""/>
-      <siteMapNode url="InfoComp.aspx" title="Kompozytor"  description=""/>
-    </siteMapNode>
-
     <siteMapNode url="Albumy.aspx" title="Albumy muzyczne"  description="">
       <siteMapNode url="Ost.aspx" title="Muzyka Oryginalna"  description=""/>
-      <siteMapNode url="Mashup.aspx" title="Składanki"  description=""/>
     </siteMapNode>
 
     <siteMapNode url="Contest.aspx" title="Konkurs"  description="">
       <siteMapNode url="Contest1.aspx" title="Konkurs Oscarowy"  description=""/>
-      <siteMapNode url="Contest2.aspx" title="Konkurs muzyczny"  description=""/>
     </siteMapNode>
 
   </siteMapNode>

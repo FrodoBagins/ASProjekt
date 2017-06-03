@@ -1,67 +1,67 @@
 <?xml version="1.0"?>
 <AlbumList>
-	<Album ID="1" Category="Comedy">
-		<Title>asdasd</Title>
-		<Compositor>asdasdasd</Compositor>
-		<Year>1943</Year>
-		<Distributor>adasdsd</Distributor>
+	<Album ID="1" Category="Dramat, Historyczny">
+		<Title>Gladiator</Title>
+		<Compositor>Hans Zimmer</Compositor>
+		<Year>2001</Year>
+		<Distributor>Decca Records</Distributor>
 		<Tracks>
-			<Track>asdasdsd</Track>
-			<Track>asdasdsd</Track>
-			<Track>asdasdsd</Track>
-			<Track>asdasdsd</Track>
-			<Track>asdasdsd</Track>
-			<Track>asd11111111asdsd</Track>
-			<Track>asdasdsd</Track>
-			<Track>asdasdsd</Track>		
+			<Track>Progeny 2:13</Track>
+			<Track>The Wheat 1:03</Track>
+			<Track>The Battle 10:02</Track>
+			<Track>Earth 3:01</Track>
+			<Track>Sorrow 1:26</Track>
+			<Track>To Zucchabar 3:16</Track>
+			<Track>Patricide 4:08</Track>
+			<Track>The Emeror is Dead 1:21</Track>		
 		</Tracks>
 	</Album>
-		<Album ID="2" Category="Horror">
-		<Title>asdasd</Title>
-		<Compositor>asdasdasd</Compositor>
-		<Year>1943</Year>
-		<Distributor>adasdsd</Distributor>
+		<Album ID="2" Category="Dramat">
+		<Title>Requiem for a Dream</Title>
+		<Compositor>Clint Mansella</Compositor>
+		<Year>2000</Year>
+		<Distributor>Nonesuch Records</Distributor>
 		<Tracks>
-			<Track>asdasdsd</Track>
-			<Track>asdasdsd</Track>
-			<Track>asdasdsd</Track>
-			<Track>asdasdsd</Track>
-			<Track>asd22222222asdsd</Track>
-			<Track>asdasdsd</Track>
-			<Track>asdasdsd</Track>
-			<Track>asdasdsd</Track>		
+			<Track>Summer Overture 2:36</Track>
+			<Track>Party 00:28</Track>
+			<Track>Coney Island Dreaming 1:04</Track>
+			<Track>Ghosts 1:21</Track>
+			<Track>Hope Overture 2:32</Track>
+			<Track>Arnold 2:35</Track>
+			<Track>Supermarket Sweep 2:14</Track>
+			<Track>Meltdown 3:55</Track>		
 		</Tracks>
 	</Album>
-		<Album ID="3" Category="Action">
-		<Title>asdasd</Title>
-		<Compositor>asdasdasd</Compositor>
-		<Year>1943</Year>
-		<Distributor>adasdsd</Distributor>
+		<Album ID="3" Category="Dramat, Sci-Fi">
+		<Title>The Book of Eli</Title>
+		<Compositor>Atticus Ross</Compositor>
+		<Year>2010</Year>
+		<Distributor>Reprise Records</Distributor>
 		<Tracks>
-			<Track>asdasdsd</Track>
-			<Track>asdasdsd</Track>
-			<Track>asdasdsd</Track>
-			<Track>asdasdsd</Track>
-			<Track>asd3333333asdsd</Track>
-			<Track>asdasdsd</Track>
-			<Track>asdasdsd</Track>
-			<Track>asdasdsd</Track>		
+			<Track>Panoramic 7:11</Track>
+			<Track>Outland 3:08</Track>
+			<Track>The Journey 4:26</Track>
+			<Track>Amen 1:51</Track>
+			<Track>The Convoy 1:50</Track>
+			<Track>Solara Violated 1:05</Track>
+			<Track>Safe 1:22</Track>
+			<Track>Human 2:07</Track>		
 		</Tracks>
 	</Album>
-		<Album ID="4" Category="Science Fiction">
-		<Title>asdasd</Title>
-		<Compositor>asdasdasd</Compositor>
-		<Year>1943</Year>
-		<Distributor>adasdsd</Distributor>
+		<Album ID="4" Category="Thriller, Sci-Fi">
+		<Title>Super 8</Title>
+		<Compositor>Michael Giacchino</Compositor>
+		<Year>2011</Year>
+		<Distributor>Varese Sarbande</Distributor>
 		<Tracks>
-			<Track>asdasdsd</Track>
-			<Track>asdasdsd</Track>
-			<Track>asdasdsd</Track>
-			<Track>asd44444444asdsd</Track>
-			<Track>asdasdsd</Track>
-			<Track>asdasdsd</Track>
-			<Track>asdasdsd</Track>
-			<Track>asdasdsd</Track>		
+			<Track>Super 8 1:44</Track>
+			<Track>Family Matters 0:28</Track>
+			<Track>Model Painting 0:39</Track>
+			<Track>Acting Chops 0:40</Track>
+			<Track>Aftermath Class 5:52</Track>
+			<Track>Thoughts of Cubism 0:48</Track>
+			<Track>Productions Woes 0:34</Track>
+			<Track>Train of Thought 0:35</Track>		
 		</Tracks>
 	</Album>
 </AlbumList>

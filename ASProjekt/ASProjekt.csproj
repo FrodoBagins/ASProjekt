@@ -138,6 +138,8 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlbumDB.cs" />
+    <Compile Include="AlbumDetails.cs" />
     <Compile Include="Albumy.aspx.cs">
       <DependentUpon>Albumy.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -286,6 +288,8 @@
     <Compile Include="Pytanie5.aspx.designer.cs">
       <DependentUpon>Pytanie5.aspx</DependentUpon>
     </Compile>
+    <Compile Include="TrackDB.cs" />
+    <Compile Include="TrackDetails.cs" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
